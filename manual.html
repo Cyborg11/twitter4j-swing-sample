@@ -1,50 +1,55 @@
-<!doctype html>
-<html>
-	<head>
-	    <meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-		<meta name="keywords" content="Twitter, Twitter4J, client, Java, Swing, developer">
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="Twitter, Twitter4J, client, Java, Swing, manual">
 		<meta name="description" content="Get involved in the project of a sample client using the framework Twitter4J">
-	    <link rel="stylesheet" type="text/css" href="styles.css">
 	    <title>Manual - Twitter4j-Swing-Sample</title>
-	</head>
-	<body>
-  		<div id="navcontainer">	
-			<ul id="navlist">
-				<li><a href="index.html">Start</a></li>
-				<li id="active"><a href="manual.html" id="current">Manual</a></li>
-				<li><a href="developer.html">Developer</a></li>
-				<li><a href="about.html">About</a></li>
-			</ul>
-		</div>
-		
-		<div>
-		    <h1>Manual</h1>
-		    <p>How to use the client</p>
-	    </div>
+
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html">Twitter Swing Sample</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="project.html">Project</a></li>
+              <li class="active"><a href="manual.html">Manual</a></li>
+              <li><a href="developer.html">Developer</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+    
+      	<div>
+	    	<h1>Manual</h1>
+	    	<p>How to use the client</p>
+   		</div>
     
 	    <div>
 	    	<h2>Installation</h2>
 	    	<p>
-	    		To be able to use the client, you have to do these steps:
-	    		<ol>
-	    			<li>Create a Twitter account</li>
-	    			<li>
-	    				Visit the <a href="https://dev.twitter.com/">Developer page of Twitter</a>
-	    				<ol>
-	    					<li>log in</li>
-	    					<li>go to "My Applications", click on "Create a new application", fill out the form, and confirm</li>
-	    					<li>Click on your new application, set the access to "Read, Write and Access direct messages", and update your settings</li>
-	    					<li>[Re]create your access token</li>
-	    				</ol>
-	    			</li>
-   				<li>Download the <a href="download/login.xml">login xml file</a> and save it right beside your JAR</li>
-   				<li>
-   					Insert the four cryptic strings of your application created into the login.xml.<br>
-   					You can insert more than one account this way.
-   				</li>
-   			</ol>
-   			Now you can run the JAR.
+	    	 <a href="download/alpha2012.12.24.zip">Download</a>
+	    	 the application and read this
+	    	 <a href="https://github.com/javaprogger/twitter4j-swing-sample/wiki/Login">wiki page</a>
+	    	 about how you can access your account using the application
 	    	</p>
 	    </div>
     
@@ -53,6 +58,15 @@
 	    	<p>
 	    		[text]
 	    	</p>
+	    </div>
+
+      <hr>
+
+      <footer>
+        <p style="float:right;">
+        	website created with <a href="twitter.github.com/bootstrap">Bootstrap</a>
+        </p>
+      </footer>
 	    </div>
 	</body>
 </html>
